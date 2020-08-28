@@ -7,5 +7,7 @@ auto**
 *.pth
 *.pkl
 *.npy
- 
-
+*.swp
+*.swo
+a_gluon_tests/
+old_files/

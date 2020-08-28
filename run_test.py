@@ -168,7 +168,7 @@ def make_dataset(train_frame, val_frame, params, shuffle=True, batch_size=512):
     return loaders
 
 
-@ex.capture
+#@ex.capture
 def add_metrics(_run, key, value, order):
     ex.log_scalar(key, float(value), order)
     
